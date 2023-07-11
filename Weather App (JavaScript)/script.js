@@ -1,5 +1,5 @@
 let weather = {
-  apiKey: "3265874a2c77ae4a04bb96236a642d2f",
+  apiKey: "USE_YOUR_OWN_API_KEY", //Make sure to add your own api key
   fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -46,3 +46,5 @@ document
       weather.search();
     }
   });
+
+// At first we have fetched the Api from Open Weather. Make sure to add your own api key. If we use mine than there will be an error for sure. Because key has to be unique for each of the users. After that we have destructured it. This is called object destructuring. You must have Basics knowledge to do this project.
